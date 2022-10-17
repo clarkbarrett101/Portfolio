@@ -1,0 +1,289 @@
+.summary__heading {
+    position: absolute;
+    width: 751px;
+    height: 215px;
+    left: 60px;
+    top: 80px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+.summary__body {
+    position: absolute;
+    width: 751px;
+    height: 215px;
+    left: 60px;
+    top: 120px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #595959;
+}
+
+.summary__img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 364.73px;
+    left: 850px;
+    top: 120px;
+
+    background: url(HeadShot.svg);
+    border: 2px solid #000000;
+    border-radius: 59px;
+
+}
+
+.experience__text {
+    position: absolute;
+    width: 421px;
+    height: 27px;
+    left: 200px;
+    top: 379px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+.experience__img1 {
+    position: absolute;
+    width: 343px;
+    height: 119px;
+    left: 189px;
+    top: 422px;
+
+    background: url(HTML_JS_CSS.svg);
+}
+
+.experience__img2 {
+    position: absolute;
+    width: 68px;
+    height: 123px;
+    left: 206px;
+    top: 541px;
+
+    background: url(Java.svg);
+}
+
+.experience__img3 {
+    position: absolute;
+    width: 92px;
+    height: 87px;
+    left: 314px;
+    top: 547px;
+
+    background: url(CS.svg);
+}
+
+.experience__img4 {
+    position: absolute;
+    width: 86px;
+    height: 102px;
+    left: 437px;
+    top: 547px;
+
+    background: url(Unity.svg);
+}
+
+.experience__img5 {
+    position: absolute;
+    width: 220px;
+    height: 157px;
+    left: 495px;
+    top: 516px;
+
+    background: url(Unreal.svg);
+}
+
+.projects__heading {
+    position: absolute;
+    width: 450px;
+    height: 58px;
+    left: 500px;
+    top: 731px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.projects__description1 {
+    position: absolute;
+    width: 500px;
+    height: 299px;
+    left: 90px;
+    top: 871px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.projects__description2 {
+    position: absolute;
+    width: 500px;
+    height: 349px;
+    left: 90px;
+    top: 1295px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.projects__description3 {
+    position: absolute;
+    width: 500px;
+    height: 227px;
+    left: 90px;
+    top: 1857px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.projects__img1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 580px;
+    height: 340px;
+    left: 690px;
+    top: 886px;
+
+    background: url(BattleRoyale.svg);
+    Stroke: 8px solid #000000;
+}
+
+.projects__img2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 601px;
+    height: 390px;
+    left: 690px;
+    top: 1326px;
+
+    background: url(MathGame.svg);
+    Stroke: 8px solid #000000;
+}
+
+.projects__img3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 430px;
+    height: 469px;
+    left: 690px;
+    top: 1820px;
+
+    background: url(ToDoList.svg);
+    Stroke: Solid #000000;
+
+
+}
+
+.projects__button1 {
+
+    color: #000000;
+    position: absolute;
+    width: 327px;
+    height: 104px;
+    left: 150px;
+    top: 1089px;
+    background: #C3C1FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.projects__button2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 45px;
+    color: #000000;
+    position: absolute;
+    width: 327px;
+    height: 104px;
+    left: 150px;
+    top: 1644px;
+
+    background: #C3C1FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.projects__button3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 45px;
+    color: #000000;
+    position: absolute;
+    width: 327px;
+    height: 107px;
+    left: 150px;
+    top: 2100px;
+
+    background: #C3C1FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
