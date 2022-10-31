@@ -5,46 +5,69 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
+
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     </head>
 
     <body>
-        <div class="summary">
-            <div class="summary__img"></div>
-            <div class="summary__heading">
-                I’m Clark Barrett,<br>
+        <div class="flex flex-row flex-col-reverse lg:flex-row columns-2 ">
+
+
+            <div class="flex flex-col flex-1 self-center p-10">
+                <h1 class="text-6xl">
+                    I’m Clark Barrett,<br>
+                </h1>
+                <p class="text-4xl ">
+                    I’m a an ameatuer game developer looking to find new ways to add interactivity to new fields like
+                    Education
+                    and Psychology
+                </p>
             </div>
-            <div class="summary__body">
-                I’m a an ameatuer game developer looking to find new ways to add interactivity to new fields like
-                Education
-                and Psychology
-            </div>
+            <img class=" flex flex-1 p-10 max-w-3xl " src="Headshot.svg "></img>
         </div>
-        <div class="experience">
-            <div class="experience__text">
+        <div class="flex flex-col">
+            <div class="text-5xl p-10">
                 Experience working with:
             </div>
-            <div class="experience__img1"></div>
-            <div class="experience__img2"></div>
-            <div class="experience__img3"></div>
-            <div class="experience__img4"></div>
-            <div class="experience__img5"></div>
+            <img class="max-w-3xl p-10 place-content-center" src="HTML_JS_CSS.svg"><img>
+            <div class="flex flex-row">
+                <img class="flex flex-1 p-10 max-w-xs" src="CS.svg"></img>
+                <img class="flex flex-1 p-10 max-w-xs" src="Java.svg"></img>
+                <img class="flex flex-1 max-w-xs" src="Unity.svg"></img>
+                <img class="flex  max-w-3xl flex-grow -m-20" src="Unreal.svg"></img>
+            </div>
         </div>
-        <div class="projects">
-            <div class="projects__heading">Recent Projects</div>
-            <div class="projects__description1">Multiplayer Battle Royale set in the 18th century with muskets and
-                survival mechanics. Has fully functional netcode.</div>
-            <div class="projects__img1"></div>
-            <button class="projects__button1">Store Page</button>
-            <div class="projects__description2">Game to teach kids math concepts in a way that is more intuitive.
-                Challenge depicted here is to load the crossbow with enough arrows to defeat the enemy. In effect,
-                requiring the player to divide 42 by 6 </div>
-            <div class="projects__img2"></div>
-            <button class="projects__button2">Store Page</button>
-            <div class="projects__img3"></div>
-            <div class="projects__description3">Gamefied To-Do List for both Desktop and Mobile. Tasks can be given
-                different point values and will fill a progress meter as tasks are completed</div>
-            <button class="projects__button3">Store Page</button>
+        <div class="text-6xl p-10">Recent Projects</div>
+        <div class="flex lg:flex-row flex-col-reverse p-10">
+            <div class="self-center">
+                <div class="text-3xl">Multiplayer Battle Royale set in the 18th century with muskets and
+                    survival mechanics. Has fully functional netcode.
+                </div><button class="object-center border-8 border-blue-600 rounded-md text-4xl bg-blue-200 p-2 mt-3"
+                    type="button">Store
+                    Page</button>
+            </div>
+            <img src="BattleRoyale.svg" class="max-w-3xl p-10">
+        </div>
+        <div class="flex lg:flex-row flex-col-reverse p-10">
+            <div class="self-center">
+                <div class="text-3xl">Game to teach kids math concepts in a way that is more intuitive.
+                    Challenge depicted here is to load the crossbow with enough arrows to defeat the enemy. In effect,
+                    requiring the player to divide 42 by 6
+                </div><button class="object-center border-8 border-blue-600 rounded-md text-4xl bg-blue-200 p-2 mt-3"
+                    type="button">Store
+                    Page</button>
+            </div>
+            <img src="MathGame.svg" class="max-w-3xl p-10">
+        </div>
+        <div class="flex lg:flex-row flex-col-reverse p-10">
+            <div class="self-center">
+                <div class="text-3xl">Gamefied To-Do List for both Desktop and Mobile. Tasks can be given
+                    different point values and will fill a progress meter as tasks are completed
+                </div><button class="object-center border-8 border-blue-600 rounded-md text-4xl bg-blue-200 p-2 mt-3"
+                    type="button">Store
+                    Page</button>
+            </div>
+            <img src="ToDoList.svg" class="max-w-4xl p-10">
         </div>
     </body>
 
